@@ -1,4 +1,4 @@
-const theirSolution = (s: string, t: string): boolean => {
+const checkPermutation = (s: string, t: string): boolean => {
   /**
    * This is my solution
    *
@@ -19,5 +19,5 @@ const theirSolution = (s: string, t: string): boolean => {
   return s === t;
 };
 
-console.log(theirSolution("hello", "ollhe"));
-console.log(theirSolution("dallas", "taylor"));
+console.log(checkPermutation("hello", "ollhe"));
+console.log(checkPermutation("dallas", "taylor"));
